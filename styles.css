@@ -291,18 +291,30 @@ h2 {
     background: var(--celeste-claro);
 }
 
-/* Sobre Nosotros */
+/* Sobre Nosotros - versión natural */
 #sobre-nosotros {
-    background: var(--celeste-claro);
-    color: white;
+    background: #e6f2e2; /* verde claro */
+    color: #1a3d1f;      /* verde oscuro */
+    padding: 4rem 2rem;
+    border-radius: 12px;
+    font-family: var(--parrafos);
+}
+
+#sobre-nosotros h2 {
+    text-align: center;
+    margin-bottom: 1.2rem;
+    color: #2c6e49; /* tono natural medio */
+    font-family: var(--titulos);
 }
 
 #sobre-nosotros p {
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
-    font-size: 1.1rem;
+    line-height: 1.8;
+    font-size: 1.15rem;
 }
+
 
 /* Contacto */
 .contacto-info {
